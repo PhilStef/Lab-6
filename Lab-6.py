@@ -5,6 +5,7 @@ def main():
     while True:
         print("1. Encode\n2. Decode\n3. Quit")
         inp = int(input())
+        #Comment
         if inp == 1:
             pas = input("Please enter your password to encode: ")
             opas = encode(pas)
